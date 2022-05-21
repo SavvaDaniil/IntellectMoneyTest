@@ -16,7 +16,7 @@ namespace IntellectMoneyTestNUnitTest
             const string usernameForTest = "XXXXXXXXXX";
             MailSenderComponent mailSenderComponent = new MailSenderComponent();
 
-            Assert.IsTrue(mailSenderComponent.sendMailToUsername(usernameForTest, "Тестовая тема письма", "Тестовый текст письма"));
+            Assert.IsTrue(mailSenderComponent.sendMailToUsername(usernameForTest, "Test subject", "Test message text"));
         }
     }
 }
